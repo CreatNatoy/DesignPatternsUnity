@@ -8,13 +8,16 @@ namespace BaseCode.MvcAndMvp
         [Header("Ui components")] 
         [SerializeField] private Button _addScore;
         [Header("My components")]
-        [SerializeField] private ModelScore _modelScore;
         [SerializeField] private ViewScoreMVP _viewScore;
+        
+        private ModelScoreMVP _modelScoreMvp;
 
         private void Start()
         {
-            _addScore.onClick.AddListener(() =>  _modelScore.IncreaseScore());
-            _modelScore.UpdatedScore += (value) => _viewScore.UpdateText(value);
+            _modelScoreMvp = new ModelScoreMVP();
+            
+            _addScore.onClick.AddListener(() =>  _modelScoreMvp.IncreaseScore());
+            _modelScoreMvp.UpdatedScore += (value) => _viewScore.UpdateText(value);
         }
     }
 }

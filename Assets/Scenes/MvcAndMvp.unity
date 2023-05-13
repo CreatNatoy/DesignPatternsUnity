@@ -711,7 +711,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1055035732}
   - component: {fileID: 1055035736}
-  - component: {fileID: 1055035735}
   - component: {fileID: 1055035734}
   - component: {fileID: 1055035733}
   m_Layer: 5
@@ -770,20 +769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _addScore: {fileID: 1555441252}
-  _modelScore: {fileID: 1055035735}
   _viewScore: {fileID: 1055035733}
---- !u!114 &1055035735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1055035731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96a571f53cda49aeab29cd3311002fb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!222 &1055035736
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1368,7 +1354,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1364050728}
   - component: {fileID: 1364050732}
-  - component: {fileID: 1364050731}
   - component: {fileID: 1364050730}
   - component: {fileID: 1364050729}
   m_Layer: 5
@@ -1414,7 +1399,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _scoreText: {fileID: 430869686}
-  _modelScore: {fileID: 1364050731}
 --- !u!114 &1364050730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1428,19 +1412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _addScore: {fileID: 54874673}
-  _modelScore: {fileID: 1364050731}
---- !u!114 &1364050731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1364050727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96a571f53cda49aeab29cd3311002fb5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  _viewScoreMvc: {fileID: 1364050729}
 --- !u!222 &1364050732
 CanvasRenderer:
   m_ObjectHideFlags: 0

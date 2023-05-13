@@ -1,13 +1,17 @@
 ﻿using System;
-using UnityEngine;
 
 namespace BaseCode.MvcAndMvp
 {
-    public class ModelScore : MonoBehaviour
+    public class ModelScoreMVP
     {
         private int _countScore;
 
         public event Action<int> UpdatedScore;
+
+        public ModelScoreMVP()
+        {
+            _countScore = 0;
+        }
         
         public void IncreaseScore()
         {

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace BaseCode.MvcAndMvp
 {
-    public class ViewScoreMVP : MonoBehaviour
+    public class ViewScore : MonoBehaviour
     {
         [Header("Ui components")]
         [SerializeField] private TextMeshProUGUI _scoreText;

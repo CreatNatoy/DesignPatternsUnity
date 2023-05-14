@@ -2,17 +2,14 @@
 
 namespace BaseCode.MvcAndMvp
 {
-    public class ModelScoreMVP
+    public class ModelScore
     {
         private int _countScore;
 
         public event Action<int> UpdatedScore;
 
-        public ModelScoreMVP()
-        {
-            _countScore = 0;
-        }
-        
+        public ModelScore() => _countScore = 0;
+
         public void IncreaseScore()
         {
             _countScore++;

@@ -12,9 +12,10 @@ This is a small Unity project where I will be implementing Design Patterns. For 
 * Factory\<T\> Interesting implementation method using a generic class.
 * Singleton\<T\> Interesting implementation method using a generic class.
 * Command
+* MVC and MVP
 
 ## Gif  
 ### Factory\<T\>![Unity_riQhwI4Ggj](https://user-images.githubusercontent.com/76531899/236618000-c80a1ac3-efa4-42e3-b023-75928e81d99c.gif)
 ### Singleton\<T\>![Unity_l3Zxkkf2yd](https://user-images.githubusercontent.com/76531899/236613451-67b43085-e9b6-444f-984c-f179bc3871bf.gif)
 ### Command![Unity_aCvEAH1bf2](https://user-images.githubusercontent.com/76531899/235894069-391b0f31-4531-4247-b6a4-fb995935afef.gif)
-
+### MVC and MVP![Unity_V2HrQ9PaPI](https://github.com/CreatNatoy/DesignPatternsUnity/assets/76531899/7ba023f2-51e5-4f5c-87ce-795d9406bb5b)

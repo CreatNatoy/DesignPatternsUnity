@@ -15,6 +15,7 @@ This is a small Unity project where I will be implementing Design Patterns. For 
 * MVC and MVP
 * State Machine
 * EventBus
+* Visitor
 
 ## Gif  
 ### Factory\<T\>![Unity_riQhwI4Ggj](https://user-images.githubusercontent.com/76531899/236618000-c80a1ac3-efa4-42e3-b023-75928e81d99c.gif)
@@ -23,3 +24,5 @@ This is a small Unity project where I will be implementing Design Patterns. For 
 ### MVC and MVP![Unity_V2HrQ9PaPI](https://github.com/CreatNatoy/DesignPatternsUnity/assets/76531899/7ba023f2-51e5-4f5c-87ce-795d9406bb5b)
 ### State Machine![Unity_jgso3BDT5s](https://github.com/CreatNatoy/DesignPatternsUnity/assets/76531899/9f41e8bc-64bc-4d00-a095-6b4f7f7d82d2)
 ### EventBus![Unity_eOxkrqhwJI](https://github.com/CreatNatoy/DesignPatternsUnity/assets/76531899/495befc8-c583-496b-bfdc-6a360e18416e)
+### Visitor ![Unity_ujlSJaXNLY](https://github.com/CreatNatoy/DesignPatternsUnity/assets/76531899/66bb4ad6-ccc5-4a4f-a3fe-2a91142007c4)
+
